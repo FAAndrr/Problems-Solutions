@@ -1,5 +1,5 @@
 # Palindrome C++/C/Python/Java 
-# (Python3 solution)
+# # Time and Memory Limits: 1 second, 1 GB
 # Easy question
 
 # A palindrome is a word that is the same when read forwards and backwards, for example madam, racecar, and deed.
