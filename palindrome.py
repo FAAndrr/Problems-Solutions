@@ -33,6 +33,8 @@
 # The word deed is already a palindrome, so no changes are necessary.
 # --------------------------------------------------------------------
 
+# vvvvvvvvvvvvvvvvvvvvvvv Solution below vvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
 char = list(str(input()).strip())
 for i in range(len(char)//2):
     j = len(char) - 1 - i
