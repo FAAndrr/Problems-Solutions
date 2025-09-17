@@ -1,4 +1,6 @@
-# Palindrome (Python3 solution)
+# Palindrome C++/C/Python/Java 
+# (Python3 solution)
+# Easy question
 
 # A palindrome is a word that is the same when read forwards and backwards, for example madam, racecar, and deed.
 # You will be given a word with N lowercase letters, which may or may not be a palindrome. 
@@ -30,8 +32,6 @@
 # Explanation 2
 # The word deed is already a palindrome, so no changes are necessary.
 # --------------------------------------------------------------------
-# VERY EASY QUESTION!!!
-# Solution below 
 
 char = list(str(input()).strip())
 for i in range(len(char)//2):
