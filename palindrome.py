@@ -35,6 +35,7 @@
 
 # vvvvvvvvvvvvvvvvvvvvvvv Solution below vvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 
+_ = input()
 word = input()
 char = list(word.strip())
 for i in range(len(char)//2):
