@@ -1,4 +1,4 @@
-# Robot Vacuum (C/C++/Python/Java)
+# Robot Vacuum C/C++/Python/Java
 # Time and Memory Limits: 1 second, 1 GB
 # Medium Question
 
