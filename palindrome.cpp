@@ -55,3 +55,7 @@ int main() {
     string result(letters.begin(), letters.end());
     cout << result << endl;
 }
+
+// Time : 0.003s
+// Memory : 1.0MiB
+// Score: 100/100
