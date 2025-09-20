@@ -1,6 +1,4 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
 using namespace std;
 int n;
 int x;
@@ -10,7 +8,6 @@ string ins;
 int main() {
     cin >> n;
     cin >> ins;
-    vector<char> letters(ins.begin(),ins.end());
     for(int i = 0; i < n; i++ ){
         if (ins[i] == 'N'){
             y += 1;
