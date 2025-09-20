@@ -11,7 +11,7 @@ int main() {
     cin >> n;
     cin >> ins;
     vector<char> letters(ins.begin(),ins.end());
-    for(int i = 0; i <= n; i++ ){
+    for(int i = 0; i < n; i++ ){
         if (ins[i] == 'N'){
             y += 1;
         }
