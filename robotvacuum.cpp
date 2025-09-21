@@ -6,20 +6,17 @@ int main() {
     cin >> n;
     cin >> ins;
     for(int i = 0; i < n; i++ ){
-        if (ins[i] == 'N'){
-            y += 1;
-        }
-        if (ins[i] == 'E'){
-            x += 1;
-        }
-        if (ins[i] == 'S'){
-            y -= 1;
-        }
-        if (ins[i] == 'W'){
-            x -= 1;
-        }   
+        if (ins[i] == 'N') y++; 
+        if (ins[i] == 'E') x++;
+        if (ins[i] == 'S') y--;
+        if (ins[i] == 'W') x--;
     }    
+    
     int num = abs(x) + abs(y);
     cout << num << endl;
     return 0;
 }
+
+// Max time : 0.004s
+// Memory : 0.7 MiB
+// Results : 100/100
