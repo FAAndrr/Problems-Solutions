@@ -1,11 +1,8 @@
 #include <iostream>
 using namespace std;
-int n;
-int x;
-int y;
-string ins;
-
 int main() {
+    int n, x, y;
+    string ins;
     cin >> n;
     cin >> ins;
     for(int i = 0; i < n; i++ ){
